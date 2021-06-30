@@ -1,0 +1,54 @@
+html{
+    font-size: 14px;
+}
+body{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background-image: url("https://thumbs.dreamstime.com/b/le-fermier-chinois-travaille-dans-un-domaine-de-riz-95600324.jpg");
+    background-position: bottom 30px right 30px;
+    background-size: cover;
+    font-family: "varela",sans-serif;
+}
+header p{
+    background-color: yellow;
+}
+blockquote{
+    margin: auto;
+
+}
+blockquote q{
+    font-size: 1.6rem;
+    width: 50%;
+    display: block;
+    text-align: center;
+    margin: 40px auto ;
+    background-color: rgb(199, 199, 199);
+    border-left: 3px solid red;
+    padding: 1rem;
+    font-style: italic;
+}
+table tr:nth-child(even){
+    background-color: grey;
+}
+table tr:nth-child(odd){
+    background-color:white;
+}
+p :first-child{
+    font-weight: 800;
+}
+.villageois{
+    border-left: 3px solid blue
+}
+.fermier{
+    border-left: 3px solid violet
+}
+div ul li{
+    list-style: none;
+}
+.bon{
+    color: green;
+}
+.mauvais{
+    color: red;
+}
